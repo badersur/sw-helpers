@@ -19,7 +19,7 @@ import logHelper from '../../../lib/log-helper.js';
 import replayQueuedRequests from './lib/replay-queued-requests.js';
 
 /**
- * In order to use the library, call`goog.offlineGoogleAnalytics.initialize()`.
+ * In order to use the library, call `goog.offlineGoogleAnalytics.initialize()`.
  * It will take care of setting up service worker `fetch` handlers to ensure
  * that the Google Analytics JavaScript is available offline, and that any
  * Google Analytics requests made while offline are saved (using `IndexedDB`)
